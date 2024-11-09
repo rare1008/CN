@@ -1,0 +1,24 @@
+Scan a single IP:
+(base) comp@comp:~$ nmap 192.168.1.1
+
+Scan a host:
+(base) comp@comp:~$ nmap google.com
+
+Scan a range of IPs:
+(base) comp@comp:~$ nmap 192.168.1.0-255
+
+Scan a subnet:
+(base) comp@comp:~$ nmap 192.168.1.0/24
+
+Scan a single Port:
+(base) comp@comp:~$ nmap -p 23 192.168.5.*
+
+Scan 100 most common ports (Fast):
+(base) comp@comp:~$ nmap -F 192.168.1.1
+
+Scan using TCP connect:
+(base) comp@comp:~$ nmap -sT 192.168.1.1
+
+Detect OS and Services:
+(base) comp@comp:~$ nmap -A 192.168.1.1
+

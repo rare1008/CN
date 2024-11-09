@@ -1,0 +1,15 @@
+ftp 192.168.5.105
+
+
+sudo ufw allow ftp
+
+ftp 192.168.5.105
+
+sudo apt-get update
+
+sudo apt-get install vsftpd
+
+sudo apt-get intsall ufw
+
+sudo ufw enable
+

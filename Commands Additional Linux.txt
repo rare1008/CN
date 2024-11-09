@@ -1,0 +1,25 @@
+Commands Additional
+
+1) View Current Routing Tables :
+
+   %netstat -r   OR netstat -r  OR  netstat -rn  OR route -n
+
+2) Add or Delete Routes:
+
+netstat -rn
+
+ ADD : sudo route add -net 192.168.10.0 netmask 255.255.255.0 192.169.1.1
+
+ DELETE : sudo route delete -net 192.168.10.0
+
+3) Change Default Gateway : 
+
+netstat -rn
+
+(sudo route add default gw new_gateway_ip)
+sudo route add default gw 192.168.1.1
+
+
+netstat -rn
+
+

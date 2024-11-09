@@ -1,0 +1,19 @@
+Installing Net tools :
+
+sudo apt install net-toolds
+
+ifconfig
+
+Establishing Firewall : 
+sudo ufw enable
+
+Starting Server...
+
+Establishing Connection : 
+telnet 192.168.3.67
+
+Re-establishing Connection : 
+telnet 192.168.1.25
+
+
+
